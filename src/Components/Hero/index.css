@@ -1,0 +1,84 @@
+.hero {
+  display: flex;
+  height: 100vh;
+  background: #f4f6f5;
+  border-radius: 12px;
+  justify-content: space-between;
+}
+.hero-left {
+  align-items: center;
+  justify-content: center;
+  padding-left: 150px;
+  margin-top: 30px;
+}
+.hero-left h1 {
+  color: black;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 90px;
+  margin-bottom: -50px;
+}
+.hero-left h3 {
+  margin-top: 70px;
+  font-weight: 500;
+  font-size: 24px;
+}
+.white-bg {
+  font-weight: bold;
+  color: black;
+  width: 250px;
+}
+.white-bg::before {
+  content: "LET'S";
+  font-weight: bold;
+  background-color: white;
+  transform: skewX(-5deg);
+  z-index: -1;
+  color: black;
+  font-weight: 900;
+  padding-left: 10px;
+  margin-bottom: -50px;
+  padding-right: 60px;
+}
+.yellow-bg {
+  font-weight: bold;
+  color: black;
+}
+.yellow-bg::before {
+  content: "UNIQUE";
+  font-weight: bold;
+  background-color: #ebd96b;
+  transform: skewX(-5deg);
+  z-index: -1;
+  color: black;
+  font-weight: 900;
+  padding-left: 10px;
+  margin-bottom: -50px;
+  padding-right: 55px;
+}
+
+.hero-left button {
+  outline: none;
+  background-color: black;
+  color: white;
+  width: 165px;
+  height: 61px;
+  font-size: 22px;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.hero-left button:active {
+  opacity: 0.5;
+}
+.hero-right {
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.hero-right img {
+  align-self: center;
+  padding: 20px;
+  align-items: flex-end;
+}

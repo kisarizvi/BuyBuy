@@ -1,0 +1,98 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 100px;
+}
+.nav-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.nav-logo p {
+  color: black;
+  font-size: 38px;
+  font-weight: 800;
+}
+.nav-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 100px;
+}
+.nav-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+  gap: 90px;
+  font-size: 20px;
+  font-weight: 600;
+  outline: none;
+  color: black;
+}
+
+.nav-menu li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  flex-direction: column;
+  cursor: pointer;
+  text-decoration: none;
+}
+.nav-menu li a {
+  text-decoration: none;
+  color: black;
+}
+.selected {
+  background-color: black;
+  color: white;
+  width: 100px;
+  height: 30px;
+  border-radius: 8px;
+  padding: 10px;
+  text-decoration: none;
+}
+.nav-menu a {
+  text-decoration: none;
+  color: black;
+}
+.nav-cart {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-cart button {
+  width: 100px;
+  height: 50px;
+  background: black;
+  outline: none;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  cursor: pointer;
+}
+.nav-cart button:active {
+  opacity: 0.5;
+}
+.nav-cart img {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+.nav-cart-count {
+  width: 22px;
+  height: 22px;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  margin-top: -30px;
+  margin-left: -30px;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 400;
+  display: flex;
+}
